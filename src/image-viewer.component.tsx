@@ -3,17 +3,13 @@ import * as React from 'react';
 import {
   Animated,
   CameraRoll,
-  Dimensions,
   I18nManager,
   Image,
-  PanResponder,
-  Platform,
   Text,
   TouchableHighlight,
   TouchableOpacity,
   TouchableWithoutFeedback,
-  View,
-  ViewStyle
+  View
 } from 'react-native';
 import ImageZoom from 'react-native-image-pan-zoom';
 import styles from './image-viewer.style';
@@ -69,7 +65,8 @@ export default class ImageViewer extends React.Component<Props, State> {
       // 显示动画
       Animated.timing(this.fadeAnim, {
         toValue: 1,
-        duration: 200
+        duration: 200,
+        useNativeDriver: true
       }).start();
     }
   }
@@ -109,7 +106,8 @@ export default class ImageViewer extends React.Component<Props, State> {
         // 显示动画
         Animated.timing(this.fadeAnim, {
           toValue: 1,
-          duration: 200
+          duration: 200,
+          useNativeDriver: true
         }).start();
       }
     );
@@ -304,7 +302,8 @@ export default class ImageViewer extends React.Component<Props, State> {
     this.standardPositionX = this.positionXNumber;
     Animated.timing(this.positionX, {
       toValue: this.positionXNumber,
-      duration: this.props.pageAnimateTime
+      duration: this.props.pageAnimateTime,
+      useNativeDriver: true
     }).start();
 
     const nextIndex = (this.state.currentShowIndex || 0) - 1;
@@ -337,7 +336,8 @@ export default class ImageViewer extends React.Component<Props, State> {
     this.standardPositionX = this.positionXNumber;
     Animated.timing(this.positionX, {
       toValue: this.positionXNumber,
-      duration: this.props.pageAnimateTime
+      duration: this.props.pageAnimateTime,
+      useNativeDriver: true
     }).start();
 
     const nextIndex = (this.state.currentShowIndex || 0) + 1;
@@ -361,7 +361,8 @@ export default class ImageViewer extends React.Component<Props, State> {
     this.positionXNumber = this.standardPositionX;
     Animated.timing(this.positionX, {
       toValue: this.standardPositionX,
-      duration: 150
+      duration: 150,
+      useNativeDriver: true
     }).start();
   }
 
@@ -582,7 +583,7 @@ export default class ImageViewer extends React.Component<Props, State> {
     });
 
     return (
-      <Animated.View style={{ zIndex: 9 }}>
+      <View style={{ zIndex: 9 }}>
         <Animated.View style={{ ...this.styles.container, opacity: this.fadeAnim }}>
           {this!.props!.renderHeader!(this.state.currentShowIndex)}
 
@@ -622,7 +623,7 @@ export default class ImageViewer extends React.Component<Props, State> {
             {this!.props!.renderFooter!(this.state.currentShowIndex || 0)}
           </View>
         </Animated.View>
-      </Animated.View>
+      </View>
     );
   }
 
