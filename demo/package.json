@@ -19,9 +19,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "^35.0.0",
-    "react": "16.8.3",
-    "react-native": "0.59.8",
-    "react-native-image-pan-zoom": "^2.1.7"
+    "expo": "37.0.7",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
+    "react-native-image-pan-zoom": "https://github.com/OTRD/react-native-image-zoom.git"
   }
 }
