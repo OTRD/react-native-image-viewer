@@ -3651,8 +3651,8 @@ react-is@^16.8.1, react-is@^16.8.4:
 
 "react-native-image-pan-zoom@https://github.com/OTRD/react-native-image-zoom.git":
   version "2.1.12"
-  uid "32b688c8e49f0a50fae20dbdcddc375d13e41aa1"
-  resolved "https://github.com/OTRD/react-native-image-zoom.git#32b688c8e49f0a50fae20dbdcddc375d13e41aa1"
+  uid "34712565bcc1f5275130c3bb6ff5e11bc8b1cb16"
+  resolved "https://github.com/OTRD/react-native-image-zoom.git#34712565bcc1f5275130c3bb6ff5e11bc8b1cb16"
 
 react-native@*:
   version "0.61.4"
