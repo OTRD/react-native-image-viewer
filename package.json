@@ -1,37 +1,37 @@
 {
-  "name": "react-native-image-zoom-viewer",
-  "version": "2.2.28",
-  "description": "react native image viewer,大图浏览",
-  "main": "built/index.js",
-  "types": "built/index.d.ts",
-  "scripts": {
-    "prepare": "rm -rf built && tsc",
-    "start": "tsc -w --outDir demo/built"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OTRD/react-native-image-viewer.git"
-  },
-  "keywords": [
-    "image-viewer"
-  ],
-  "author": "ascoders",
-  "license": "MIT",
-  "dependencies": {
-    "react-native-image-pan-zoom": "https://github.com/OTRD/react-native-image-zoom.git"
-  },
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  },
-  "devDependencies": {
-    "@types/react": "*",
-    "@types/react-native": "*",
-    "ascoders-tslint-config": "^1.0.2",
-    "react": "17.0.2",
-    "react-native": "0.64.2",
-    "tslint": "^6.1.1",
-    "tslint-config-prettier": "^1.13.0",
-    "typescript": "^4.3.5"
-  }
+    "name": "react-native-image-zoom-viewer",
+    "version": "2.2.28",
+    "description": "react native image viewer,大图浏览",
+    "main": "built/index.js",
+    "types": "built/index.d.ts",
+    "scripts": {
+        "prepare": "rm -rf built && tsc",
+        "start": "tsc -w --outDir demo/built"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OTRD/react-native-image-viewer.git"
+    },
+    "keywords": [
+        "image-viewer"
+    ],
+    "author": "ascoders",
+    "license": "MIT",
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "devDependencies": {
+        "@types/react": "*",
+        "@types/react-native": "*",
+        "react": "17.0.2",
+        "react-native": "0.68.2",
+        "eslint": "8.21.0",
+        "typescript": "^4.3.5"
+    },
+    "dependencies": {
+        "react-native-image-pan-zoom": "https://github.com/OTRD/react-native-image-zoom.git",
+        "@babel/core": "*",
+        "@babel/preset-env": "^7.1.6"
+    }
 }
