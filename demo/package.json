@@ -26,6 +26,6 @@
         "jest": "^26.0.0 || ^27.0.0",
         "react": "17.0.2",
         "react-native": "0.68.2",
-        "react-native-image-pan-zoom": "https://github.com/OTRD/react-native-image-zoom.git"
+        "react-native-image-pan-zoom": "https://github.com/OTRD/react-native-image-zoom.git#feature/Change_prepare_script_to_preinstall"
     }
 }
