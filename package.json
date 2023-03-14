@@ -32,6 +32,6 @@
     "dependencies": {
         "@babel/core": "*",
         "@babel/preset-env": "^7.1.6",
-        "react-native-image-pan-zoom": "https://github.com/OTRD/react-native-image-zoom.git"
+        "react-native-image-pan-zoom": "https://github.com/OTRD/react-native-image-zoom.git#feature/Test_script_changes"
     }
 }
