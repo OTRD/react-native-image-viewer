@@ -4258,9 +4258,9 @@ react-native-gradle-plugin@^0.0.6:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz#b61a9234ad2f61430937911003cddd7e15c72b45"
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
 
-"react-native-image-pan-zoom@https://github.com/OTRD/react-native-image-zoom.git":
-  version "2.1.13"
-  resolved "https://github.com/OTRD/react-native-image-zoom.git#01985fe53ef6f1f5a84cf13cde30f6babb3dbcd0"
+"react-native-image-pan-zoom@https://github.com/OTRD/react-native-image-zoom.git#feature/Test_script_changes":
+  version "2.1.14"
+  resolved "https://github.com/OTRD/react-native-image-zoom.git#038c3bc21abb7c248658c2762e0149f851300e37"
   dependencies:
     "@babel/core" "*"
     "@babel/preset-env" "^7.1.6"
