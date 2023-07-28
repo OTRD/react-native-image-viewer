@@ -1,6 +1,6 @@
 {
     "name": "react-native-image-zoom-viewer",
-    "version": "2.2.32",
+    "version": "2.2.33",
     "description": "react native image viewer,大图浏览",
     "main": "built/index.js",
     "types": "built/index.d.ts",
@@ -24,10 +24,10 @@
     "devDependencies": {
         "@types/react": "*",
         "@types/react-native": "*",
-        "eslint": "8.21.0",
-        "react": "17.0.2",
-        "react-native": "0.68.2",
-        "typescript": "^4.3.5"
+        "eslint": "6.8.0",
+        "react": "18.1.0",
+        "react-native": "0.70.8",
+        "typescript": "^4.6.3"
     },
     "dependencies": {
         "@babel/core": "*",
